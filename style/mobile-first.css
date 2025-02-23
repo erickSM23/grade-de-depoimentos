@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
 :root {
-    /*
-        ADICIONAR AS CONFIGURAÇÕES DO STYLE-GUIDE.MD
-        
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    /*  
         DEPOIS ADICIONAR NO BODY AS CONFIGURAÇÕES DE TAMANHO DE TAMANHO "FONT-SIZE"
     */
 }
@@ -12,4 +20,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
 }
