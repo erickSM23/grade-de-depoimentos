@@ -14,10 +14,8 @@
     --Darkblue: hsl(219, 29%, 14%);
     --Black: hsl(0, 0%, 7%);
 
-    --font1: "Karla", serif;
+    --font1: "Karla", serif; 
 }
-
-
 
 * {
     margin: 0px;
@@ -25,7 +23,24 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
+    min-height: 100vh;
+    min-width: 100vw;
+
     font-family: var(--font1);
     font-size: 13px;
+}
+
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+}
+
+div.caixas {
+    
+}
+
+div#caixa1 {
+    background-color: var(--Purple500);
 }
