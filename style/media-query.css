@@ -20,6 +20,10 @@
         ;
         gap: 20px 20px;
     }
+
+    div.caixas {
+        box-shadow: 7px 7px 40px rgba(0, 0, 0, 0.222);
+    }
    
     div#caixa1 {
         grid-area: daniel;
