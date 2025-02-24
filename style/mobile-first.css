@@ -32,15 +32,134 @@ body, html {
 }
 
 main {
+    padding: 50px;
     min-height: 100vh;
     min-width: 100vw;
     display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 50px 0px;
+
+    background-color: var(--Grey100);
+}
+
+img {
+    width: 15%;
+    margin-right: 20px;
+
+    border-radius: 60%;
+    border: 3px solid var(--Grey200);
 }
 
 div.caixas {
-    
+    max-width: 80vw;
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+div.caixas > h1 {
+    margin-bottom: 20px;
+}
+
+div.caixas > p {
+    line-height: 20px;
 }
 
 div#caixa1 {
     background-color: var(--Purple500);
+}
+
+div#caixa1 > h1 {
+    max-width: 100%;
+
+    color: white;
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+div#caixa1 > p {
+    color: white;
+
+    font-size: 14px;
+}
+
+div#caixa2 {
+    background-color: var(--Grey400);
+}
+
+div#caixa2 > h1 {
+    color: white;
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+div#caixa2 > p {
+    color: white;
+
+    font-size: 14px;
+}
+
+div#caixa3 {
+    background-color: var(--White);
+}
+
+div#caixa3 > h1 {
+    color: var(--Darkblue);
+
+    font-size: 20px;
+}
+
+div#caixa3 > p {
+    color: var(--Darkblue);
+
+    font-size: 14px;
+}
+
+div#caixa3 > div.cmc > div.flexivel > p {
+    color: var(--Darkblue);
+}
+
+div#caixa4 {
+    background-color: var(--Darkblue);
+}
+
+div#caixa4 > h1 {
+    color: white;
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+div#caixa4 > p {
+    color: white;
+
+    font-size: 14.5px;
+}
+
+div#caixa5 {
+    background-color: var(--White);
+}
+
+div#caixa5 > div.cmc > div.flexivel > p {
+    color: var(--Darkblue);
+}
+
+div#caixa5 > h1 {
+    font-size: 20px;
+}
+
+div#caixa5 > p {
+    font-size: 15px;
+}
+
+div.cmc {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 20px;
+
+    color: white;
 }
