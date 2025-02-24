@@ -2,8 +2,15 @@
 
 
 @media screen and (min-width: 992px){
+
+    body, html {
+        min-width: 98vw;
+        min-height: 99vh;
+    }
    
     main {
+        min-width: 98vw;
+        min-height: 99vh;
         display: grid;
         grid-template-columns:  2fr 2fr 2fr 2fr;
         grid-template-rows: auto auto;
@@ -45,6 +52,9 @@
 
     div#caixa3 > h1 {
         color:  hsl(217, 19%, 35%);
+    
+        font-size: 2em;
+        font-weight: bolder;
     }
 
     div#caixa3 > p {
