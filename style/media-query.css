@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px){
+   
+    main {
+        display: grid;
+        grid-template-columns:  2fr 2fr 2fr 2fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        'daniel daniel jonathan kira'
+        'jj patrick patrick kira'
+        ;
+        gap: 20px 20px;
+    }
+   
+    div#caixa1 {
+        grid-area: daniel;
+    }
+
+    div#caixa1 > p {
+        color:  hsl(214, 17%, 92%);
+
+        font-size: 13px;
+    }
+
+    div#caixa1 > div.cmc > img {
+        width: 7%;
+        
+    }
+
+    div#caixa2 {
+        grid-area: jonathan;     
+        
+        background-color:   hsl(217, 19%, 35%);
+    }
+
+    div#caixa2 > p {
+        color:  hsl(214, 17%, 92%);
+    }
+
+    div#caixa3 {
+        grid-area: jj;       
+    }
+
+    div#caixa3 > h1 {
+        color:  hsl(217, 19%, 35%);
+    }
+
+    div#caixa3 > p {
+        color:    hsl(224, 10%, 45%);
+    }
+
+    div#caixa3 > h1 {
+        font-size: 22px;
+    }
+
+    div#caixa4 {
+        grid-area: patrick;       
+    }
+
+    div#caixa4 > p {
+        font-size: 12px;
+    }
+
+    div#caixa4 > div.cmc > img {
+        width: 7%;
+    }
+
+    div#caixa5 {
+        grid-area: kira;       
+    }
+
+    div#caixa5 > h1 {
+        color:  hsl(217, 19%, 35%);
+    }
+
+    div#caixa5 > p {
+        color:    hsl(224, 10%, 45%);
+    }
+}
