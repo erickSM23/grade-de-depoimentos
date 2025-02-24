@@ -23,6 +23,8 @@
    
     div#caixa1 {
         grid-area: daniel;
+
+        background: #7541c8 url(../images/bg-pattern-quotation.svg) no-repeat top right;
     }
 
     div#caixa1 > p {
